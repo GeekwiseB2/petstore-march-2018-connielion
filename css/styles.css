@@ -3,7 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
-
+.flex {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .body {
   font-family: 'Roboto', sans-serif;
@@ -33,9 +38,10 @@
   font-size: 20px;
   margin-top: 20px;
 }
+/* BODY STYLING */
 
-.featured {
-  margin-left: 20px;
+.feature {
+  margin-left: 80px;
 }
 /*JUMBOTRON STYLE STARTS*/
 .jumbotron {
@@ -49,4 +55,57 @@ background-size: cover;
   color: #fff;
   font-size: 2em;
   margin-top: 36px;
+}
+
+.well {
+  height: 100px;
+  margin-right: 5px;
+  background-color: #e2f1ff;
+}
+
+.ft {
+  width: 800px;
+  margin-left: -20px;
+}
+
+.purchase {
+  display: flex;
+  position: absolute;
+  left: 90px;
+  top: 760px;
+}
+
+.purchase > div {
+  width: 240px;
+  height:350px;
+}
+
+/* img styling */
+.p1 {
+  width: 180px;
+  height: 180px;
+}
+.p2 {
+  width: 180px;
+  height: 180px;
+}
+.p3 {
+  width: 180px;
+  height: 180px;
+}
+
+/*SERVICES*/
+.services {
+  position: relative;
+  top: -90px;
+  right: 100px;
+}
+
+.s {
+  margin: 5px;
+}
+
+.s-link {
+  margin: 5px;
+  text-align: center;
 }

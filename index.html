@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,14 +17,18 @@
 
 <!---NAV BAR STARTS-->
 <div class="container">
-	<img src="img/petstore_logo.png" alt="logo image" class="img-responsive logo pull-left">
-	<h1 class="brand pull-left">Pet Store</h1>
-	<ul class="nav nav-pills pull-right">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Products</a></li>
-  <li role="presentation"><a href="#">Contact Us</a></li>
-</ul>
-</div>
+	<div class="flex">
+		<span>
+			<img src="img/petstore_logo.png" alt="logo image" class="img-responsive logo pull-left">
+			<h1 class="brand pull-left">Pet Store</h1>
+		</span>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active"><a href="#">Home</a></li>
+					<li role="presentation"><a href="#">Products</a></li>
+					<li role="presentation"><a href="#">Contact Us</a></li>
+				</ul>
+	</div>
+	</div>
 
 <!--HEADER ENDS-->
 <!--JUMBOTRON STARTS-->
@@ -36,13 +41,34 @@
 </div>
 
 <!--JUMBOTRON ENDS-->
-<div class="featured pull-left">
-	<h2>Feature</h2>
-	I LOOOOOOOOOOOOOOOOOOVE DOGS.
-
+<div class="container feature push-left">
+	<div class="h2 strong">Feature</div>
+		<div class="col-md-5 ft pull-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+  		<div class="flex-container purchase">
+  				<div class="col-md-2 well buy"><img src="img/product1.jpg" alt="dog bowl" class="p1 center-block"><h3>Dog Bowl</h3><p class="bowl">The best dog bowl for your dogeeeee.</p><button class="btn-info btn-sm">Purchase Now</button></div>
+  				<div class="col-md-2 well buy"><img src="img/product2.jpg" alt="cat toy" class="p2 center-block"><h3>Cat Toy</h3><p class="bowl">The best cat toy for your favorite cat.</p><button class="btn-info btn-sm">Purchase Now</button></div>
+  				<div class="col-md-2 well buy"><img src="img/product3.jpg" alt="parrot toy" class="p3 center-block"><h3>Parrot Stuff</h3><p class="bowl">The best parrot stuff for your parrot.</p><button class="btn-info btn-sm">Purchase Now</button></div>
+  		</div>
 </div>
-<div class="services push-right">
+<!--Product END-->
+
+<!-- SERVICES START-->
+
+<div class="services pull-right">
 		<h2>Services</h2>
+
+		<div class="flex-container sv">
+			<div><a href="#" class="s-link">ADOPT A CAT</a>
+					<div class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+			</div>
+			<div><a href="#" class="s-link">ADOPT A DOG</a>
+					<div class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+			</div>
+			</div><a href="#" class="s-link">ADOPT A FISH</a>
+					<div class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+			</div>
+		</div>
+
 </div>
 
 
