@@ -97,15 +97,17 @@ background-size: cover;
 /*SERVICES*/
 .services {
   margin-right: 100px;
-  margin-top: -105px;
+  margin-top: -100px;
 
 }
 
-.s {
-margin-bottom: 20px;
+.serv-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
 }
 
 .s-link {
-
-
+  margin-bottom: 10px;
 }
