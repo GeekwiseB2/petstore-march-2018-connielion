@@ -68,6 +68,10 @@ background-size: cover;
   margin-left: -20px;
 }
 
+.ft-text {
+  margin-left: 5px;
+}
+
 .purchase {
   display: flex;
   position: absolute;
