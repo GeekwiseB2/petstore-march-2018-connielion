@@ -105,9 +105,19 @@ background-size: cover;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
 }
 
 .s-link {
   margin-bottom: 10px;
+}
+
+html, body {padding:0; margin:0; height:100%;}
+
+.footer {
+  height: 100px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
 }
