@@ -41,13 +41,18 @@
 }
 /* BODY STYLING */
 
+.doctors {
+  margin-top: 20px;
+}
 
-
+.table {
+  margin-top: -40px;
+}
 
 /*--------------------FOOTER STYLING-------------*/
 footer {
    position: absolute;
-   top: 1200px;
+   top: 800px;
    bottom:0;
    width: 100%;
    height: 180px;
