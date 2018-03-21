@@ -49,12 +49,14 @@
   margin-top: -40px;
 }
 
+
+
 /*--------------------FOOTER STYLING-------------*/
 footer {
    position: absolute;
    top: 800px;
    bottom:0;
-   width: 100%;
+   width: 120%;
    height: 180px;
    background-color: #231F20;
    color: #B9BABB;
