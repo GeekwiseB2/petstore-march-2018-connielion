@@ -41,15 +41,13 @@
 }
 /* ------------------BODY STYLING----------------- */
 
-.container {
-  margin-top: 20px;
+.content {
+  margin-top: 50px;
 }
 
 .di {
   margin-top: 20px;
 }
-
-
 
 /*--------------------FOOTER STYLING-------------*/
 footer {
