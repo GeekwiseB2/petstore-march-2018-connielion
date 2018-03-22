@@ -44,8 +44,7 @@
 .content {
   margin-top: 50px;
   position: absolute;
-  left: 150px;
-
+  left: 100px;
 }
 
 .di {
@@ -57,7 +56,7 @@ footer {
    position: absolute;
    top: 800px;
    bottom:0;
-   width: 120%;
+   width: 100%;
    height: 180px;
    background-color: #231F20;
    color: #B9BABB;
